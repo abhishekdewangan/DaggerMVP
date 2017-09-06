@@ -65,8 +65,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
                     android:layout_centerVertical="true"
                     android:layout_toStartOf="@+id/image_like"
+                    android:layout_toLeftOf="@+id/image_like"
                     android:ellipsize="end"
                     android:maxLines="1"
                     android:padding="16dp"
@@ -78,6 +80,7 @@
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
                     android:layout_toStartOf="@+id/text_like_count"
+                    android:layout_toLeftOf="@+id/text_like_count"
                     android:src="@drawable/ic_heart_accent_accent_24dp" />
 
                 <TextView
@@ -85,9 +88,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
                     android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
                     android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
                     android:ellipsize="end"
                     android:gravity="start"
                     android:maxLines="1"

@@ -16,7 +16,7 @@ public interface BrowseMVPView extends MVPView {
 
     void showShots(List<Shot> shots);
 
-    void showError();
+    void showError(String message);
 
     void showEmpty();
 

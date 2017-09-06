@@ -10,7 +10,9 @@ import demo.dagger.com.daggermvprxjava.modules.DaggerActivityModule;
 import demo.dagger.com.daggermvprxjava.modules.DaggerApplicationModule;
 import demo.dagger.com.daggermvprxjava.scopes.ActivityScope;
 import demo.dagger.com.daggermvprxjava.ui.activity.DribblerHomeActivity;
+import demo.dagger.com.daggermvprxjava.ui.activity.ShotActivity;
 import demo.dagger.com.daggermvprxjava.ui.fragments.BrowseFragment;
+import demo.dagger.com.daggermvprxjava.ui.fragments.ShotFragment;
 
 /**
  * Created by abhishek on 03/09/17.
@@ -27,5 +29,9 @@ public interface ActivityComponent {
     void inject(DribblerHomeActivity dribblerHomeActivity);
 
     void inject(BrowseFragment browseFragment);
+
+    void inject(ShotActivity shotActivity);
+
+    void inject(ShotFragment shotFragment);
 
 }

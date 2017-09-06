@@ -7,4 +7,8 @@ package demo.dagger.com.daggermvprxjava.utils;
 public class Statics {
     public static final String DRIBBBLE_ACCESS_TOKEN = "80a00fc89eebfb66885f0402be76f23d6faa5a9eb35a5292af736c634245d897";
     public static final String DRIBBBLE_API_URL = "https://api.dribbble.com/v1/";
+
+    // Bundle Keys
+    public static final String BUNDLE_SHOT_OBJECT = "SHOT_OBJECT";
+
 }

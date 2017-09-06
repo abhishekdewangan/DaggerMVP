@@ -57,7 +57,7 @@ public class BrowsePresenter extends BasePresenter<BrowseMVPView> {
                     public void onError(Throwable error) {
                         Timber.e(error, "There was an error retrieving the shots");
                         getMvpView().hideProgress();
-                        getMvpView().showError();
+                        getMvpView().showError(error.getMessage());
                     }
                 });
 
